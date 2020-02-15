@@ -32,7 +32,7 @@ as well as Adafruit raw 1.8" TFT display
 #endif
 
 #if defined (__STM32F1__)
-  #include <Adafruit_GFX_AS.h>    // Core graphics library
+  #include <Adafruit_GFX.h>    // Core graphics library
 #endif
 #if !defined (__STM32F1__)
   #include <Adafruit_GFX.h>    // Core graphics library
