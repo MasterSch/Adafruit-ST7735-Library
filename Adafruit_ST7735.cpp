@@ -387,6 +387,8 @@ void Adafruit_ST7735::initR(uint8_t options) {
     rowstart = 3;
   } else {
     // colstart, rowstart left at default '0' values
+    colstart = 2;  // offset blacktab
+    rowstart = 1;
     commandList(Rcmd2red);
   }
   commandList(Rcmd3);
